@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use('/', router)
 
-const PORT = 'https://backend-beta-wheat.vercel.app';
+const PORT = 8000;
 
 DBConnection();
 
